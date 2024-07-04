@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-codingxperts-dev-3094e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::930363089260:role/amplify-codingxperts-dev-3094e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::930363089260:role/amplify-codingxperts-dev-3094e-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-codingxperts-dev-3094e-deployment",
+      "UnauthRoleName": "amplify-codingxperts-dev-3094e-unauthRole",
+      "StackName": "amplify-codingxperts-dev-3094e",
+      "StackId": "arn:aws:cloudformation:us-east-1:930363089260:stack/amplify-codingxperts-dev-3094e/03aaa350-3a1a-11ef-bc23-12d0d0afb877",
+      "AmplifyAppId": "d1i1s2c4slhjfa"
+    },
+    "categories": {
+      "function": {
+        "contactFormHandler": {
+          "deploymentBucketName": "amplify-codingxperts-dev-3094e-deployment",
+          "s3Key": "amplify-builds/contactFormHandler-377269496b6857384c36-build.zip"
+        }
+      },
+      "api": {
+        "codingXpertsApi": {}
+      },
+      "storage": {
+        "contactFormDB": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
